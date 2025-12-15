@@ -198,8 +198,5 @@ HAVING
     AND
     AVG(discount) <
         (SELECT AVG(discount) FROM amazon)
-```
-
 ORDER BY total_sales DESC;
-
-``
+```
