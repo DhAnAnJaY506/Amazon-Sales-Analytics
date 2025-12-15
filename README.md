@@ -1,5 +1,10 @@
 ## Amazon Sales Analysis
 
+# Project Overview – Amazon Sales Analysis (PostgreSQL)
+This project analyzes Amazon sales data using PostgreSQL to understand revenue, sales trends, customer behavior, and operational performance.
+The dataset includes orders, products, customers, payments, locations, discounts, and sellers.
+The goal of this project is to write analytical SQL queries that answer real-world business questions and generate insights useful for decision-making.
+
 ```sql
 CREATE TABLE amazon (
     order_id TEXT,
@@ -202,3 +207,40 @@ HAVING
         (SELECT AVG(discount) FROM amazon)
 ORDER BY total_sales DESC;
 ```
+## Key Insights
+
+Top Revenue Categories
+Certain product categories contribute the majority of total revenue, showing where Amazon earns most of its sales.
+Best-Performing Brands
+A few brands generate significantly higher total sales compared to others, indicating strong brand demand.
+Monthly Revenue Trend
+Revenue changes across months, helping identify peak sales periods and seasonal demand patterns.
+City-Wise Order Distribution
+Some cities place a much higher number of orders, highlighting key geographic markets.
+Top Products by Quantity Sold
+High-volume products drive sales through quantity rather than high unit price.
+Popular Payment Methods
+Customers prefer specific payment methods, which can help optimize payment options and offers.
+Average Order Value by Country
+Order value differs across countries, reflecting purchasing power and customer behavior.
+Top Seller Performance
+A small number of sellers contribute the highest total revenue, showing seller concentration.
+Impact of Discounts on Sales
+Moderate discounts increase sales volume, while very high discounts do not always lead to higher revenue.
+Order Status Distribution
+Most orders are successfully delivered, while cancelled and returned orders form a smaller portion.
+Shipping Cost Analysis
+Some states have higher average shipping costs, indicating logistical challenges.
+High Sales with Low Discounts
+Certain products sell well even with low discounts, showing strong product demand.
+
+## Conclusion
+
+This Amazon Sales Analysis project demonstrates how SQL can be used to extract meaningful business insights from raw data.
+By analyzing revenue, sales trends, customer behavior, discounts, and logistics, this project shows practical use of aggregations, grouping, subqueries, date functions, and window calculations in PostgreSQL.
+The insights generated can help businesses:
+Improve pricing and discount strategies
+Identify top-performing products, brands, and sellers
+Optimize logistics and shipping costs
+Understand customer purchasing patterns
+This project is suitable for Data Analyst / SQL Analyst portfolios and reflects real-world analytical problem-solving skills.
