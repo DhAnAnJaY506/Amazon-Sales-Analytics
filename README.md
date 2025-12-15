@@ -1,3 +1,5 @@
+## Amazon Sales Analysis
+
 ```sql
 CREATE TABLE amazon (
     order_id TEXT,
