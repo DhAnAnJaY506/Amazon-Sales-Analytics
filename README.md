@@ -247,3 +247,8 @@ By analyzing revenue, sales trends, customer behavior, discounts, and logistics,
 * Optimize logistics and shipping costs
 * Understand customer purchasing patterns
 * This project is suitable for Data Analyst / SQL Analyst portfolios and reflects real-world analytical problem-solving skills.
+
+## Tech Stack
+Database: PostgreSQL / MySQL
+Language: SQL
+Version Control: Git & GitHub
